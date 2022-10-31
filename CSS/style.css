@@ -1,0 +1,276 @@
+body {
+    margin:0;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif; 
+}
+  .navigation {
+    display: flex;
+    width: 100%;
+    background-color: black;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
+  .menuItem {
+    display: flex;
+    width: 75%;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+    .menuItem > p {
+    padding: 15px;
+    }
+
+  h1 {
+    font-weight:300;
+    letter-spacing: 2px;
+    font-size:48px;
+  }
+  
+header {
+color: white;
+}
+
+.heroGrid {
+    display: flex;
+}
+
+.heroImg {
+  display: flex;
+    height: 300px;
+    margin-bottom: 5%;
+    padding: 3%;
+    width: 45%;
+    justify-content: left;
+}
+
+.content {
+    height: 300px;
+    padding-top: 50px;
+    width:45%;
+    padding-top: 50px;
+    margin: 5%;
+    justify-content: right;
+}
+
+button {
+    height: 40px;
+    width: 140px;
+    background-color: #984df7;
+    color: white;
+    text-shadow: 4px; 
+    margin: 3%;
+}
+
+.skillsBackground {
+  display: flex;
+  margin: 10%;
+}
+
+.mySkills {
+  margin-left: 3%;
+}
+
+.flexContainer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 95%;
+}
+
+#Adobe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+#Figma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+#Miro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+
+
+.myWork {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+
+.box {
+  float: left;
+  width: calc(50% - 5px);
+  margin-right: 5px;
+  padding: 8px;
+  border: 1px solid #aaaaaa;
+  box-sizing: border-box;
+}
+
+.box:last-child {
+  margin: 0 0 0 5px;
+}
+
+.outFront {
+display: flex;
+  height: 300px;
+  margin-bottom: 5%;
+  padding: 3%;
+  width: 45%;
+  justify-content: left;
+}
+
+.outFrontpic {
+  height: 300px;
+  padding-top: 50px;
+  width:45%;
+  padding-top: 50px;
+  margin: 5%;
+  justify-content: right;
+}
+
+
+footer {
+    background-color:black;
+    display: flex;
+    width: 100%;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    }
+
+    .socialMedia {
+        display: flex;
+        width: 100%;
+        flex-direction:row;
+        justify-content: center;
+        padding: 15px;
+    }
+
+.socialMedia > img {
+    padding: 15px;
+}
+
+.bottomMenu {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+        
+.bottomMenu > p {
+    padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+        .heroGrid {
+        /* grid-template-rows: 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "heroImg"
+        "content" */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: auto;
+        }
+        
+        .heroImg {
+          display: flex;
+            height: 300px;
+            width: 90%;
+            justify-content: center;
+        }
+        
+        .content {
+            height: 300px;
+            padding-top: 50px;
+            width:85%;
+            padding-top: 50px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        
+
+        .mySkills {
+        /* grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "Adobe"
+        "Figma"
+        "Miro" */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 100px;
+        margin-top: 200px;
+        ;
+        }
+
+
+.flexContainer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 95%;
+}
+
+#Adobe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+#Figma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+#Miro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+        
+        .myWork {
+        /* grid-template-rows: 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "outFrontpic"
+        "outFront"
+        "foodApppic"
+        "foodApp" */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        ;
+        }};
