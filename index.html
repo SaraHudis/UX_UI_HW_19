@@ -30,7 +30,7 @@
     <section class="heroGrid">
     <div class="heroImg">
         <img src="./images/aboutmeimage.png" alt="sara hudis picture" width="500" height="500"></div>
-        <div class="content">
+        <div class="aboutInfo">
         <h1>Sara Hudis</h1>
         <h2>Aspiring Product Designer</h2>
         <h4>Sparking creative ideas, realizing drawbacks, and pivoting with a new plan to make concepts work.</h4>
@@ -83,8 +83,30 @@
     </section>
 <!-- My Work Section Constructed using CSS Grid -->
   <section class="myWork">
-<div class="workBackground"></div>
-        <h2>My Work</h2>
+    <div class="workBackground"></div>
+     <!--Simple CSS Waves By.Goodkatz | Free to use-->
+     <!--Content before waves-->
+    <div class="wave">
+    <div class="inner-header flex">
+     <h2>My Work</h2>
+    </div>
+    <!--Waves Container-->
+    <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+    </svg>
+    </div>
+    </div>
+    <!--Simple CSS Waves By.Goodkatz | Free to use-->
         <div class="box">
           <div class="OutfrontImage"></div>
           <img src="./images/OutFront MN.png" alt="OutFront Case Study" width=100% height=40%>
@@ -108,8 +130,9 @@
               </div>
             </div>
             </div>
-
+<div class="allProjects">
 <h4>View All Projects</h4>
+</div>
     </section>
 
     <footer>
