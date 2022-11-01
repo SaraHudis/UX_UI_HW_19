@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sara Hudis Portfolio</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="./CSS/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mirza:wght@600&family=Noto+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
  <!-- Navigation bar -->
  <div class="navigation">
-    <div class="logo" href="#"><img src="./images/logo.png" alt="logo" width="150" height="150"></div>
+    <div class="logo" href="#"><img src="./images/logo.png" alt="logo" width="80" height="80"></div>
         <div class="menuItem">
           <p class="nav-link" href="#">About</p>
           <p class="nav-link" href="#">Skills</p>
@@ -22,8 +25,8 @@
           <button>Contact Me</button>
       </div>
     </nav>
+</header>
   <!-- End navigation bar -->
-    </header>
     <section class="heroGrid">
     <div class="heroImg">
         <img src="./images/aboutmeimage.png" alt="sara hudis picture" width="500" height="500"></div>
@@ -42,29 +45,46 @@
     <!--  My UX Skills section coded using CSS flex -->
     <div class="skillsBackground"></div>
     <section class="mySkills">
-        <h1>My UX Skills</h1>
+        <h2>My UX Skills</h2>
         <div class="flexContainer">
-            <div id="Adobe">
+            <div id="skillBox">
                 <img src="/UX_UI_HW_18/images/Adobe CC.png" alt="Adobe Creative Suite">
                 <h3>Adobe Creative Suite</h3>
                 <p>Photoshop, Premiere Pro, After Effects, InDesign</p>
             </div>
-            <div id="Figma">   
+            <div id="skillBox">   
                 <img src="/UX_UI_HW_18/images/Figma.png" alt="Figma">
                 <h3>Figma</h3>
                 <p>Wireframing, Prototyping, A/B Testing</p>
             </div>
-            <div id="Miro">
+            <div id="skillBox">
                 <img src="/UX_UI_HW_18/images/Miro.png" alt="Miro">
                 <h3>Miro</h3>
                 <p>Collaboration, Brainstorming, User Flows</p>
+            </div>
+        </div>
+            <div class="flexContainer">
+            <div id="skillBox">   
+                <img src="/UX_UI_HW_19/images/Microsoft.png" alt="Microsoft Office">
+                <h3>Microsoft Office</h3>
+                <p>Excel, Word, PowerPoint, Power Automate, Forms</p>
+            </div>
+            <div id="skillBox">
+                <img src="/UX_UI_HW_19/images/Invision.png" alt="InVision">
+                <h3>InVision</h3>
+                <p>Moodboards and User Testing</p>
+            </div>
+            <div id="skillBox">
+                <img src="/UX_UI_HW_19/images/Google.png" alt="Google">
+                <h3>Google Suite</h3>
+                <p>Slides, Forms, Sheets, Docs</p>
             </div>
         </div>
     </section>
 <!-- My Work Section Constructed using CSS Grid -->
   <section class="myWork">
 <div class="workBackground"></div>
-        <h1>My Work</h1>
+        <h2>My Work</h2>
         <div class="box">
           <div class="OutfrontImage"></div>
           <img src="./images/OutFront MN.png" alt="OutFront Case Study" width=100% height=40%>
@@ -89,7 +109,7 @@
             </div>
             </div>
 
-<h3>View All Projects</h3>
+<h4>View All Projects</h4>
     </section>
 
     <footer>

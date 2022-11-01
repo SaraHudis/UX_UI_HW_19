@@ -2,24 +2,39 @@ body {
     margin:0;
   }
 
-  body {
-    font-family: 'Open Sans', sans-serif; 
+P, h2, h4, h5 {
+  font-family:'Noto Sans', sans-serif;
+}
+
+h1 {
+  font-family:'Mirza', cursive; 
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+}
+
+h3 {
+  font-family:'Mirza', cursive; 
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:26px;
 }
   .navigation {
     display: flex;
     width: 100%;
-    background-color: black;
+    background-color:#151515;
   }
 
   .logo {
     display: flex;
     flex-direction: column;
     justify-content: right;
+    margin: 2%;
   }
 
   .menuItem {
     display: flex;
-    width: 75%;
+    width: 80%;
     flex-direction: row;
     justify-content: center;
     }
@@ -27,12 +42,6 @@ body {
     .menuItem > p {
     padding: 15px;
     }
-
-  h1 {
-    font-weight:300;
-    letter-spacing: 2px;
-    font-size:48px;
-  }
   
 header {
 color: white;
@@ -57,6 +66,7 @@ color: white;
     width:45%;
     padding-top: 50px;
     margin: 5%;
+    padding-bottom: 30px;
     justify-content: right;
 }
 
@@ -67,18 +77,41 @@ button {
     color: white;
     text-shadow: 4px; 
     margin: 3%;
+    border: 1px solid #f2f2f2;
 }
+
+button:hover {
+  background-color: #BE8BFF;
+}
+
 
 .skillsBackground {
   display: flex;
-  margin: 10%;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-top: 5%;
+  margin: 15%;
 }
 
 .mySkills {
-  margin-left: 3%;
+  background-color: #BE8BFF ;
+  border: 10px solid  #984df7;
+  z-index: 2;
+}
+
+.mySkills > h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:30px;
+  text-shadow: 2px 2px #151515;
 }
 
 .flexContainer{
+margin-left: 3%;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -86,31 +119,13 @@ align-items: center;
 width: 95%;
 }
 
-#Adobe {
+#skillBox {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin: 3%;
 }
-
-#Figma {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 3%;
-}
-
-#Miro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 3%;
-}
-
-
 
 .myWork {
   display: flex;
@@ -151,7 +166,7 @@ display: flex;
 
 
 footer {
-    background-color:black;
+  background-color:#151515;
     display: flex;
     width: 100%;
     color: white;
@@ -182,7 +197,7 @@ footer {
     padding: 10px;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 960px) {
         .heroGrid {
         /* grid-template-rows: 300px 300px;
         grid-template-columns: 1fr;
@@ -194,6 +209,10 @@ footer {
         justify-content: center;
         margin-bottom: auto;
         }
+
+        .menuItem > p {
+          padding: 10px;
+          }
         
         .heroImg {
           display: flex;
@@ -211,6 +230,13 @@ footer {
             justify-content: center;
         }
         
+        .skillsBackground {
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: row;
+          padding-top: 20%;
+          margin: 5%;
+        }
 
         .mySkills {
         /* grid-template-rows: 300px 300px 300px;
@@ -227,7 +253,6 @@ footer {
         ;
         }
 
-
 .flexContainer{
 display: flex;
 flex-direction: column;
@@ -236,7 +261,7 @@ align-items: center;
 width: 95%;
 }
 
-#Adobe {
+#skillBox {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -244,23 +269,6 @@ width: 95%;
   margin: 3%;
 }
 
-#Figma {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 3%;
-}
-
-#Miro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 3%;
-}
-
-        
         .myWork {
         /* grid-template-rows: 300px 300px 300px 300px;
         grid-template-columns: 1fr;
