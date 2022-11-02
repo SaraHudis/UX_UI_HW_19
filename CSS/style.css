@@ -78,7 +78,6 @@ button {
     text-shadow: 4px; 
     margin: 3%;
     border: 1px solid #f2f2f2;
-    font-family:'Noto Sans', sans-serif;
 }
 
 button:hover {
@@ -139,7 +138,12 @@ width: 95%;
   position:relative;
   text-align:center;
   background: linear-gradient(60deg, rgba(151,71,255,1) 0%, rgb(190,39,255) 100%);
+  font-family:'Noto Sans', sans-serif;
   color:white;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:30px;
+  text-shadow: 2px 2px #151515;
 }
 
 .box {
@@ -209,16 +213,18 @@ width: 95%;
 }
 
 .box {
-  float: left;
-  width: calc(50% - 5px);
-  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  width: calc(80% - 10px);
+  margin: 5px;
   padding: 8px;
-  border: 1px solid #aaaaaa;
+  border: 8px solid #984df7;
   box-sizing: border-box;
 }
 
 .box:last-child {
   margin: 0 0 0 5px;
+  justify-content: center;
 }
 
 .outFront {
@@ -227,7 +233,7 @@ display: flex;
   margin-bottom: 5%;
   padding: 3%;
   width: 45%;
-  justify-content: left;
+  justify-content: center;
 }
 
 .outFrontpic {
@@ -236,7 +242,7 @@ display: flex;
   width:45%;
   padding-top: 50px;
   margin: 5%;
-  justify-content: right;
+  justify-content: center;
 }
 
 
